@@ -71,3 +71,17 @@ Sample fixtures are in `test/resources/` (`sample.fs`, `sample.fsi`, `sample.fsx
 - Set `fsharp-ts--debug` to `t` (indentation + `treesit-inspect-mode`) or `'font-lock` (also font-lock, very noisy) when debugging tree-sitter behavior.
 - Update `CHANGELOG.md` for user-facing changes. Reference issues in commit messages as `#N` / `[Fix #N]`.
 - User-facing docs live in `docs/` (mkdocs-material), deployed to GitHub Pages.
+
+## Agent skills
+
+### Issue tracker
+
+Issues and PRDs are tracked as local markdown files under `.scratch/<feature>/`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default triage vocabulary (needs-triage, needs-info, ready-for-agent, ready-for-human, wontfix), recorded as a `Status:` line in each issue file. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one `CONTEXT.md` + `docs/adr/` at the repo root. See `docs/agents/domain.md`.
